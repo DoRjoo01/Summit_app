@@ -1,0 +1,28 @@
+{
+  "cli": {
+    "version": ">= 2.6.0",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "info@digitalcredit.mn",
+        "ascAppId": "6447391087",
+        "appleTeamId": "3SG959T53P"
+      },
+      "android": {
+        "serviceAccountKeyPath": "./google-service-key.json"
+      }
+    }
+  }
+}
